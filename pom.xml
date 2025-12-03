@@ -27,12 +27,15 @@
 
         <!-- Hibernate ORM -->
         <dependency>
-            <groupId>org.hibernate.orm</groupId>
-            <artifactId>hibernate-core</artifactId>
-            <version>${hibernate.version}</version>
-        </dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate-core</artifactId>
+    <version>5.6.20.Final</version>
+</dependency>
+
 
         <!-- H2 Database (in-memory for testing) -->
+
+             
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
